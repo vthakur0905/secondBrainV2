@@ -93,7 +93,7 @@ const Page = () => {
 		}else{
 			fetchContent();
 		}
-	// eslint-disable-next-line react-hooks/exhaustive-deps
+
 	}, [searchParams])
 
 	async function handleCreate(event: React.FormEvent<HTMLFormElement>){

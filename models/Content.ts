@@ -1,5 +1,5 @@
 import { contentInput } from "@/schema/Content";
-import mongoose, { model, models, Schema } from "mongoose";
+import { model, models, Schema } from "mongoose";
 
 export interface contentInterface extends contentInput {
   userId: String;

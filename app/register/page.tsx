@@ -99,7 +99,7 @@ const Page = () => {
 							placeholder="6-digit code"
 							className="w-full px-3 py-2 rounded bg-black text-white border border-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500"
 							required
-							pattern="\\d{6}"
+							pattern=""
 							value={code}
 							onChange={(e)=>setCode(e.target.value.replace(/[^0-9]/g, '').slice(0,6))}
 						/>
